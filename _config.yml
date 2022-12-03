@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Bastian hundt
+title: Bastian Hundt
 email: bastian@hundt.me
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -34,6 +34,11 @@ github_username:  bhundt
 theme: minima
 plugins:
   - jekyll-feed
+
+minima:
+  social_links:
+    - { platform: github,  user_url: "https://github.com/bhundt/" }
+    - { platform: twitter, user_url: "https://twitter.com/dosmarder" }
 
 # Exclude from processing.
 # The following items will not be processed, by default.
