@@ -20,8 +20,8 @@
 
 title: Bastian Hundt
 email: bastian@hundt.me
-description: >- # this means to ignore newlines until "baseurl:"
-  Mostly ramblings about data stuff.
+# description: >- # this means to ignore newlines until "baseurl:"
+#  Mostly ramblings about data stuff.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://bhundt.de # the base hostname & protocol for your site, e.g. http://example.com
 domain: bhundt.de
