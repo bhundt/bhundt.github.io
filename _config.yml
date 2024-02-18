@@ -29,7 +29,7 @@ twitter_username: dosmarder
 github_username: bhundt
 
 # Build settings
-theme: minima
+theme: jekyll-theme-minima
 plugins:
   - jekyll-feed
 # Exclude from processing.
