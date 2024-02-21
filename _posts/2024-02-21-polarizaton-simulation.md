@@ -10,9 +10,9 @@ Societal polarization is the phenomenon where opinions on specific topics (ideol
 
 In the paper ["Preventing extreme polarization of political attitudes" by Axelrod et al.](https://www.pnas.org/doi/10.1073/pnas.2102139118#ref-22) a simple agent-based model is introduced in which the authors focus on issue based polarization. The model hinges on three key parameters:
 
-- **Exposure probability *E* **: The likelihood that an agent interacts with another agent holding a differing opinion.
-- **Tolerance window *T* **: The extent to which an agent is accepting of another's opinion.
-- **Reaction *R* **: The intensity of an agent's shift in position upon encountering another's viewpoint.
+- **Exposure probability** *E*: The likelihood that an agent interacts with another agent holding a differing opinion.
+- **Tolerance window** *T*: The extent to which an agent is accepting of another's opinion.
+- **Reaction** *R*: The intensity of an agent's shift in position upon encountering another's viewpoint.
 
 Importantly, the amount by which the actor moves is always larger when repulsed by an opinion compared to the case when an actor is attracted to the position of another actor.
 Simulation
@@ -21,7 +21,7 @@ Simulation
 
 Inspired by the paper I replicated the model in Python. The code is based on a nice framework for agent based simulation called [AgentPy](https://github.com/jofmi/agentpy). To make the model easily accessible I packaged it into a [Streamlit](https://streamlit.io) applicattion and published it on Streamlit Cloud.
 
-You can play around with the model [here on Streamlit Cloud](https://bhundt-polarization-simulation.streamlit.app/). For parameters E=0.1, T=0.25 and R=0.25 we get a fully polarized society after 5000 iterations as you can see in this two plots showing a time series of total polariztion and the distribution of opinions.
+You can play around with the model [here on Streamlit Cloud](https://bhundt-polarization-simulation.streamlit.app/). For parameters E=0.1, T=0.25 and R=0.25 we get a fully polarized society (consisting of 30 agents) after 1000 simulation iterations. The following plots show the polarization dynamics over time and the distribution of opinions after 1000 iterations.
 
 <a href="/assets/images/pol-sim-time-series.png">
     <img 
@@ -36,11 +36,13 @@ You can play around with the model [here on Streamlit Cloud](https://bhundt-pola
     >
 </a>
 
-The paper provides a thorough analysis of the model's implications. One notable takeaway is the potential counterproductive effect of dismantling "filter bubbles." In a society predisposed to polarization, increasing exposure probability could inadvertently accelerate polarization, assuming all other parameters remain constant.
-
 ## Summary and Disussion
 
-All models are wrong, but some are useful.Is this useful? Well..from the technical perspective it was fun replicating the model and working with AgentPy. It was also the first time I built a Streamlit app which was also a nice surprise in how easy and simple the whole development and deployment process was.
+The paper provides a thorough analysis of the model's implications. One notable takeaway is the potential counterproductive effect of dismantling "filter bubbles." In a society predisposed to polarization, increasing exposure probability could inadvertently accelerate polarization, assuming all other parameters remain constant.
+
+> [All models are wrong, but some are useful.](https://en.wikipedia.org/wiki/All_models_are_wrong)
+
+Is this useful? Well..from the technical perspective it was fun replicating the model and working with AgentPy. It was also the first time I built a Streamlit app which was also a nice surprise in how easy and simple the whole development and deployment process was.
 
 The model's societal implications, however, are more ambiguous. It offers a plausible explanation for how social media might expedite polarization, as discussed. Yet, the model also posits a debatable assumption:
 
