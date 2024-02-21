@@ -6,9 +6,9 @@ comments: false
 ---
 ## Introduction
 
-Societal polarization is the phenomenon where opinions on specific topics (ideological polarization) and emotions towards other political groups (affective polarization) within a society diverge over time. While evidence points to increasing affective polarization in countries like the USA the phenomenon of affective polarization is more nuanced in other countries (see ["Cross-Country Trends in Affective Polarization" by Boxell et. al](https://www.nber.org/papers/w26669)).
+Societal polarization is the phenomenon where opinions on specific topics (ideological polarization) and emotions towards other political groups (affective polarization) within a society diverge over time. While evidence points to increasing affective polarization in countries like the USA the phenomenon of affective polarization is more nuanced in other countries (see ["Cross-Country Trends in Affective Polarization" by Boxell et al](https://www.nber.org/papers/w26669)).
 
-In the paper ["Preventing extreme polarization of political attitudes" by Axelrod et. al](https://www.pnas.org/doi/10.1073/pnas.2102139118#ref-22) a simple agent-based model is introduced in which the authors focus on issue based polarization. The model hinges on three key parameters:
+In the paper ["Preventing extreme polarization of political attitudes" by Axelrod et al.](https://www.pnas.org/doi/10.1073/pnas.2102139118#ref-22) a simple agent-based model is introduced in which the authors focus on issue based polarization. The model hinges on three key parameters:
 
 - Exposure probability: The likelihood that an agent interacts with another agent holding a differing opinion.
 - Tolerance window: The extent to which an agent is accepting of another's opinion.
