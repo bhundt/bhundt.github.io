@@ -10,20 +10,22 @@ Societal polarization is the phenomenon where opinions on specific topics (ideol
 
 In the paper ["Preventing extreme polarization of political attitudes" by Axelrod et al.](https://www.pnas.org/doi/10.1073/pnas.2102139118#ref-22) a simple agent-based model is introduced in which the authors focus on issue based polarization. The model hinges on three key parameters:
 
-- Exposure probability: The likelihood that an agent interacts with another agent holding a differing opinion.
-- Tolerance window: The extent to which an agent is accepting of another's opinion.
-- Reaction: The intensity of an agent's shift in position upon encountering another's viewpoint.
+- **Exposure probability**: The likelihood that an agent interacts with another agent holding a differing opinion.
+- **Tolerance window**: The extent to which an agent is accepting of another's opinion.
+- **Reaction**: The intensity of an agent's shift in position upon encountering another's viewpoint.
 
 Importantly, the amount by which the actor moves is always larger when repulsed by an opinion compared to the case when an actor is attracted to the position of another actor.
 Simulation
 
-Inspired by the paper I replicated the model in Python. The code is based on a nice framework for agent based simulation called AgentPy. To make the model easily accessible I packaged it into a Streamlit applicattion and published it on Streamlit Cloud.
+## Implementation and Simulation
+
+Inspired by the paper I replicated the model in Python. The code is based on a nice framework for agent based simulation called [AgentPy](https://github.com/jofmi/agentpy). To make the model easily accessible I packaged it into a [Streamlit](https://streamlit.io) applicattion and published it on Streamlit Cloud.
 
 You can play around with the model [here on Streamlit Cloud](https://bhundt-polarization-simulation.streamlit.app/).
 
 The paper provides a thorough analysis of the model's implications. One notable takeaway is the potential counterproductive effect of dismantling "filter bubbles." In a society predisposed to polarization, increasing exposure probability could inadvertently accelerate polarization, assuming all other parameters remain constant.
 
-## Summary
+## Summary and Disussion
 
 All models are wrong, but some are useful.Is this useful? Well..from the technical perspective it was fun replicating the model and working with AgentPy. It was also the first time I built a Streamlit app which was also a nice surprise in how easy and simple the whole development and deployment process was.
 
