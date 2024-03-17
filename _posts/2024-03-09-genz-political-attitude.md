@@ -2,6 +2,7 @@
 layout: post
 title: "Is there a growing gender gap of political attitude in Germany?"
 date: 2024-03-09 06:00:00 +0100
+last_modified_at: 2024-03-17 14:00:00 +0100
 commants: false
 ---
 On the blog of [Allen Downey](https://allendowney.com) I recently stumbled upon a [blogpost](https://www.allendowney.com/blog/2024/01/28/is-the-ideology-gap-growing/) about an [article of the Financial Times](https://www.ft.com/content/29fd9b5c-2f35-41bf-9d4c-994db4e12998) which claims that there is a **growing** gap in the political attitude of young man and woman emerging **globally**. This is a strong claim with lots if implications. If it is true.
@@ -24,7 +25,7 @@ Now lets compare this to the graph shown in the Financial Times article for Germ
     <em>Financial Times, https://www.ft.com/content/29fd9b5c-2f35-41bf-9d4c-994db4e12998</em>
 </p>
 
-While there is a gap in self reported political atittude between man and woman the claim that this gap is growing is hardly supported by the data.
+While there is a gap in self reported political atittude between man and woman and this gap grew between 1990 and 2010 the claim of the FT that this gap is growing *recently* is hardly supported by the data.
 
 Unfortunetaly that all I can do here. I do not have access to more or better data but beside that the article does not give us any way of validating the claims made:
 - The article claims the data is based on social surveys but it does not provide a exact source according to scientific principles.
