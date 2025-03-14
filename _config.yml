@@ -25,7 +25,6 @@ email: bastian@hundt.me
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://bhundt.de # the base hostname & protocol for your site, e.g. http://example.com
 domain: bhundt.de
-twitter_username: dosmarder
 github_username: bhundt
 linkedin_username: dr-bastian-hundt-2085371a1
 
